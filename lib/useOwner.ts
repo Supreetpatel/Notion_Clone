@@ -14,12 +14,11 @@ function useOwner() {
   );
 
   useEffect(() => {
-    if ((usersInRoom?.docs && usersInRoom?.docs, length > 0)) {
-      const owners = usersInRoom?.docs.filter(
+    if (usersInRoom?.docs && usersInRoom.docs.length > 0) {
+      const owners = usersInRoom.docs.filter(
         (doc) => doc.data().role === "owner"
       );
       if (
-        owners &&
         owners.some(
           (owner) => owner.data().userId === user?.emailAddresses[0].toString()
         )
