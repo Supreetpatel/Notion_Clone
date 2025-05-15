@@ -7,8 +7,8 @@ Screenshots
 <img width="948" alt="image" src="https://github.com/user-attachments/assets/3e8b86be-8dc2-485e-9c2e-b83c13a4d7a6" />
 
 Tech Stack
-**Client:** NextJs, TailwindCSS, ShadcnUi, TypeScript
 
+**Client:** NextJs, TailwindCSS, ShadcnUi, TypeScript
 **Database:** Firebase
 
 Clone the project: 
